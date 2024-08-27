@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda SIMAN</title>
+    <link rel="stylesheet" href="./assets/css/nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="./assets/css/carrousel.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="icon" href="./assets/img/main_logo.png" type="image/png">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="menu-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <a href="#" class="logo">
+                <img src="./assets/img/nav/logo_nav.svg" alt="Logo">
+            </a>
+            <div class="search-container">
+                <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                <input type="text" placeholder="Buscar">
+            </div>
+            <a href="#" class="cart-icon">
+                <img src="./assets/img/nav/cart_logo.svg" alt="Carrito">
+            </a>
+        </div>
+    </nav>
+
+
+    <div class="dropdown-panel">
+        <div class="close-btn">&times;</div>
+        <div class="menu-content">
+            <a href="./index.html">Home</a>
+            <a href="./views/quienes_somos.html">Quienes Somos</a>
+            <a href="./views/historia.html">Nuestra Historia</a>
+        </div>
+    </div>
+
+
+    <main>
+
+        <section class="main-carrousel">
+
+            <div class="carousel">
+                <div class="carousel-container">
+                    <div class="slide">
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="./assets/img/carrousel/big/starlink_big_oferta.webp">
+                            <img src="./assets/img/carrousel/small/starlink_oferta.webp" alt="Producto 1">
+                        </picture>
+                        
+                    </div>
+                    <div class="slide">
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="./assets/img/carrousel/big/samsungtv_big_oferta.webp">
+                            <img src="./assets/img/carrousel/small/samsungtv_oferta.webp" alt="Producto 2">
+                        </picture>
+                    </div>
+                    <div class="slide">
+                        
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="./assets/img/carrousel/big/lenovo_big_oferta.webp">
+                            <img src="./assets/img/carrousel/small/lenovo_oferta.webp" alt="Producto 3">
+                        </picture>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <button class="prev">&#10094;</button>
+                    <button class="next">&#10095;</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="product-grid">
+            <article class="product-card">
+                <img src="./assets/img/home/secadora_promo.webp" alt="Secadora">
+            </article>
+            <article class="product-card">
+                <img src="./assets/img/home/cocina_promo.webp" alt="Cocina">
+            </article>
+            <article class="product-card">
+                <img src="./assets/img/home/aire_acon_promo.webp" alt="Ventilación">
+            </article>
+            <article class="product-card">
+                <img src="./assets/img/home/congelador_promo.webp" alt="Congelador">
+            </article>
+        </section>
+
+
+        <section class="grid-productos">
+            <article class="tarjeta-producto">
+                <img src="./assets/img/home/maleta_polo_1.webp" alt="Maleta U.S. Polo">
+                <div class="info-producto">
+                    <span class="etiqueta">Exclusivo Online</span>
+                    <h4>U.S. Polo</h4>
+                    <p>Maleta de mano us polo</p>
+                    <p class="vendido-por">Vendido por Siman</p>
+                    <p class="precio">$99.00</p>
+                    <button class="btn-agregar">Agregar al carrito</button>
+                </div>
+            </article>
+    
+            <article class="tarjeta-producto">
+                <img src="./assets/img/home/maleta_2.webp" alt="Maleta Samsonite">
+                <div class="info-producto">
+                    <span class="etiqueta">Exclusivo Online</span>
+                    <h4>Samsonite</h4>
+                    <p>Maleta de mano carry on</p>
+                    <p class="vendido-por">Vendido por Siman</p>
+                    <p class="precio">$139.00</p>
+                    <button class="btn-agregar">Agregar al carrito</button>
+                </div>
+            </article>
+    
+            <article class="tarjeta-producto">
+                <img src="./assets/img/home/maleta_polo_3.webp" alt="Maleta grande U.S. Polo">
+                <div class="info-producto">
+                    <span class="etiqueta">Exclusivo Online</span>
+                    <h4>U.S. Polo</h4>
+                    <p>Maleta grande us polo</p>
+                    <p class="vendido-por">Vendido por Siman</p>
+                    <p class="precio">$159.00</p>
+                    <button class="btn-agregar">Agregar al carrito</button>
+                </div>
+            </article>
+
+            <article class="tarjeta-producto">
+                <img src="./assets/img/home/audifonos_1.webp" alt="Audifonos Apple Negro">
+                <div class="info-producto">
+                    <span class="etiqueta">Exclusivo Online</span>
+                    <h4>Apple</h4>
+                    <p>Audifonos Airpods Max Negro</p>
+                    <p class="vendido-por">Vendido por Siman</p>
+                    <p class="precio">$159.00</p>
+                    <button class="btn-agregar">Agregar al carrito</button>
+                </div>
+            </article>
+
+            <article class="tarjeta-producto">
+                <img src="./assets/img/home/audifonos_2.webp" alt="Audifonos Apple Blanco">
+                <div class="info-producto">
+                    <span class="etiqueta">Exclusivo Online</span>
+                    <h4>Apple</h4>
+                    <p>Audifonos Airpods Max Blancos</p>
+                    <p class="vendido-por">Vendido por Siman</p>
+                    <p class="precio">$159.00</p>
+                    <button class="btn-agregar">Agregar al carrito</button>
+                </div>
+            </article>
+
+            <article class="tarjeta-producto">
+                <img src="./assets/img/home/airpods_3.webp" alt="Maleta grande U.S. Polo">
+                <div class="info-producto">
+                    <span class="etiqueta">Exclusivo Online</span>
+                    <h4>Apple</h4>
+                    <p>AirPods Pro 2da Gen</p>
+                    <p class="vendido-por">Vendido por Siman</p>
+                    <p class="precio">$159.00</p>
+                    <button class="btn-agregar">Agregar al carrito</button>
+                </div>
+            </article>
+
+            <article class="tarjeta-producto">
+                <img src="./assets/img/home/refrigerador_promo.webp" alt="Maleta grande U.S. Polo">
+                <div class="info-producto">
+                    <span class="etiqueta">Exclusivo Online</span>
+                    <h4>Hisense</h4>
+                    <p>Refrigerador Frigobar</p>
+                    <p class="vendido-por">Vendido por Siman</p>
+                    <p class="precio">$159.00</p>
+                    <button class="btn-agregar">Agregar al carrito</button>
+                </div>
+            </article>
+
+            <article class="tarjeta-producto">
+                <img src="./assets/img/home/refrigerador_2_promo.webp" alt="Maleta grande U.S. Polo">
+                <div class="info-producto">
+                    <span class="etiqueta">Exclusivo Online</span>
+                    <h4>Hisense</h4>
+                    <p>Refrigerador Compacto</p>
+                    <p class="vendido-por">Vendido por Siman</p>
+                    <p class="precio">$159.00</p>
+                    <button class="btn-agregar">Agregar al carrito</button>
+                </div>
+            </article>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+
+        <article class="footer-article-1">
+            <picture>
+                <img src="./assets/img/siman_com.png" alt="siman_com" width="200px">
+            </picture>
+            <section class="contact-info">
+                <p>
+                    Suscribete para obtener las mejores ofertas
+                </p>
+
+                <form class="subscription-form">
+                    <input type="email" name="email_footer" id="email_footer">
+                    <button type="button">Suscribirme</button>
+                </form>
+
+                <div>
+                    <p>Manténte en contacto con nosotros</p>
+                    <p>2298-3777</p>
+                    <div class="socials-container">
+                        <a href=""><i class="fa-brands fa-facebook" ></i></a>
+                        <a href=""><i class="fa-brands fa-instagram" ></i></a>
+                        <a href=""><i class="fa-brands fa-square-x-twitter" ></i></a>
+                        <a href=""><i class="fa-brands fa-youtube" ></i></a>
+                              
+                    </div>
+                </div>
+
+            </section>
+
+        </article>
+
+
+
+
+        <article class="footer-article-2">
+
+            <section class="footer-pagos-container">
+                <img><img src="./assets/img/footer/pago_seguro.svg" alt="pago_seguro"></img></div>
+                <div><img src="./assets/img/footer/credisiman_targeta.svg" alt="credisiman_targeta"></img></div>
+                <div><img src="./assets/img/footer/credisiman_visa.svg" alt="credisiman_visa"></img></div>
+                <div><img src="./assets/img/footer/mastercard_logo.svg" alt="mastercard_logo"></img></div>
+                <div><img src="./assets/img/footer/visa_logo.svg" alt="visa_logo"></img></div>
+            </section>
+
+            <section>
+                <p class="">Almacenes Siman S.A. de C.V. //
+                    <br>NIT: 0614–170266–001-3 // Almacenes venta de diversos
+                    <br>artículos // Paseo General Escalón, Centro Comercial Galerías,
+                    <br>San Salvador. // 2298-3777 //
+                    <strong>contacto@siman.com</strong>
+                </p>
+
+            </section>
+
+            <section>
+                <p class="">Copyright © 2024 Almacenes Siman El Salvador. Reservados todos los derechos.</p>
+            </section>
+
+        </article>
+
+
+
+    </footer>
+
+    <script src="./assets/js/nav.js"></script>
+</body>
+
+</html>

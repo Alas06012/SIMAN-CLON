@@ -1,0 +1,106 @@
+footer{
+    display: grid;
+    grid-column: 1;
+    gap: 1rem;
+    padding: 2rem;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.footer-article-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer-article-1 .contact-info{
+    margin-top: -1.2rem;
+    font-size: 18px;
+}
+
+.subscription-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription-form input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+}
+
+.subscription-form button {
+    padding: 10px 20px;
+    background-color: #111827; /* Color negro del botón */
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.subscription-form button:hover {
+    background-color: #ac2f30; /* Color más claro para el hover */
+}
+
+.footer-pagos-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.socials-container{
+    font-size: 2rem;
+}
+
+.socials-container a{
+    color: #111827;
+    transition: all 0.2s ease-in-out;
+}
+
+.socials-container a:hover{
+    color: #ac2f30;
+}
+
+.footer-article-2{
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-article-2 section{
+    margin-bottom: 2rem;
+}
+
+
+@media (min-width: 600px) {
+    .footer-article-1{
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .footer-article-1 .contact-info{
+        padding-top: 5rem;
+    }
+
+    .footer-article-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        max-width: 800px;
+    }
+
+    .footer-article-2 section:nth-child(2){
+        width: 100%;
+    }
+}
